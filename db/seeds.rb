@@ -36,6 +36,7 @@ end
   )
   gossip.user = User.all.sample
   gossip.tags << Tag.all.sample
+  gossip.save
 end
 
 # création de quelques messages privés
